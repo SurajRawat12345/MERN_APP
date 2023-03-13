@@ -4,7 +4,7 @@ import JWT from 'jsonwebtoken';
 import orderModel from '../models/orderModel.js';
 import productModel from '../models/productModel.js'
 
-// ----------------------- SIGNUP OR REGISTER ---------------------------
+// ----------------------- SIGNUP OR REGISTER ------------------------
 export const registerController = async(req,res) => {
     try{
         const { name , email , password , phone , address , answer} = req.body;
